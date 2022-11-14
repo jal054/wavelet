@@ -26,6 +26,9 @@ class Handler implements URLHandler {
     }
 }
 
+// javac Server.java NumberServer.java 
+// java NumberServer 4000
+
 class NumberServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
